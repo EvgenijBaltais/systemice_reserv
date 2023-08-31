@@ -1,0 +1,71 @@
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+DirectoryIndex page439937.html
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^solnechny$ page338082.html [NC]
+RewriteRule ^solnechny/$ page338082.html [NC]
+
+RewriteRule ^esipovo$ page2934111.html [NC]
+RewriteRule ^esipovo/$ page2934111.html [NC]
+
+RewriteRule ^yuzhnye$ page2967216.html [NC]
+RewriteRule ^yuzhnye/$ page2967216.html [NC]
+
+RewriteRule ^indigo$ page2966293.html [NC]
+RewriteRule ^indigo/$ page2966293.html [NC]
+
+RewriteRule ^vorsino$ page2935791.html [NC]
+RewriteRule ^vorsino/$ page2935791.html [NC]
+
+RewriteRule ^emotional_intelligence$ page5154918.html [NC]
+RewriteRule ^emotional_intelligence/$ page5154918.html [NC]
+
+RewriteRule ^neg_and_sales_star$ page5659014.html [NC]
+RewriteRule ^neg_and_sales_star/$ page5659014.html [NC]
+
+RewriteRule ^intellect_and_emotions$ page6443216.html [NC]
+RewriteRule ^intellect_and_emotions/$ page6443216.html [NC]
+
+RewriteRule ^pro_management$ page6680753.html [NC]
+RewriteRule ^pro_management/$ page6680753.html [NC]
+
+RewriteRule ^systemiceru/games/networker/$ page6689539.html [NC]
+RewriteRule ^systemiceru/games/networker//$ page6689539.html [NC]
+
+RewriteRule ^test$ page10705256.html [NC]
+RewriteRule ^test/$ page10705256.html [NC]
+
+RewriteRule ^banket$ page7121143.html [NC]
+RewriteRule ^banket/$ page7121143.html [NC]
+
+RewriteRule ^vecherinka$ page7121166.html [NC]
+RewriteRule ^vecherinka/$ page7121166.html [NC]
+
+RewriteRule ^den-rozhdeniya$ page7123640.html [NC]
+RewriteRule ^den-rozhdeniya/$ page7123640.html [NC]
+
+RewriteRule ^seasymphony2$ page12932581.html [NC]
+RewriteRule ^seasymphony2/$ page12932581.html [NC]
+
+RewriteRule ^fruit2$ page12789962.html [NC]
+RewriteRule ^fruit2/$ page12789962.html [NC]
+
+RewriteRule ^ministerial-lakes2$ page12946909.html [NC]
+RewriteRule ^ministerial-lakes2/$ page12946909.html [NC]
+
+RewriteRule ^summer2$ page12952371.html [NC]
+RewriteRule ^summer2/$ page12952371.html [NC]
+
+RewriteRule ^family2$ page12955415.html [NC]
+RewriteRule ^family2/$ page12955415.html [NC]
+
+RewriteRule ^members/ ma_start.html [NC]
+
+RewriteRule ^favicon.ico$ https://static.tildacdn.com/tild6561-3533-4431-b534-303535663563/tildafavicon.ico [R=302,L]
+

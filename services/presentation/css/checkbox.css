@@ -1,0 +1,44 @@
+input, input:focus {
+    outline: none;
+}
+.t186A__blockinput-checkbox {
+	padding-right: 0;
+	padding-top: 6px;
+}
+@media (max-width: 640px) {
+	.t186A__blockinput-checkbox {
+		padding-top: 0;
+	}
+}
+.form-consent {
+	display: block;
+    color: #000;
+}
+@media (max-width: 400px) {
+	.form-consent {
+		text-align: center;
+	}
+}
+.form-consent label {
+    font-size: 15px;
+    text-align: left;
+    font-family: 'Roboto';
+}
+.form-main__checkbox {
+    margin-right: 7px;
+    margin-left: 0;
+}
+#form20133924 a.form-consent-link {
+	font-family: 'Roboto';
+    font-size: 15px;
+    text-align: left;
+    color: inherit;
+    display: inline-block;
+}
+#form20133924 a.form-consent-link,
+#form20133924 a.form-consent-link:hover,
+#form20133924 a.form-consent-link:active,
+#form20133924 a.form-consent-link:focus {
+    color: inherit;
+    text-decoration: underline;
+}

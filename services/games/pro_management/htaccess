@@ -1,0 +1,39 @@
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+DirectoryIndex page439937.html
+
+RewriteEngine On
+
+RewriteRule ^solnechny$ page338082.html [NC]
+RewriteRule ^solnechny/$ page338082.html [NC]
+
+RewriteRule ^esipovo$ page2934111.html [NC]
+RewriteRule ^esipovo/$ page2934111.html [NC]
+
+RewriteRule ^yuzhnye$ page2967216.html [NC]
+RewriteRule ^yuzhnye/$ page2967216.html [NC]
+
+RewriteRule ^indigo$ page2966293.html [NC]
+RewriteRule ^indigo/$ page2966293.html [NC]
+
+RewriteRule ^vorsino$ page2935791.html [NC]
+RewriteRule ^vorsino/$ page2935791.html [NC]
+
+RewriteRule ^emotional_intelligence$ page5154918.html [NC]
+RewriteRule ^emotional_intelligence/$ page5154918.html [NC]
+
+RewriteRule ^neg_and_sales_star$ page5659014.html [NC]
+RewriteRule ^neg_and_sales_star/$ page5659014.html [NC]
+
+RewriteRule ^intellect_and_emotions$ page6443216.html [NC]
+RewriteRule ^intellect_and_emotions/$ page6443216.html [NC]
+
+RewriteRule ^pro_management$ page6680753.html [NC]
+RewriteRule ^pro_management/$ page6680753.html [NC]
+
+RewriteRule ^systemiceru/games/networker/$ page6689539.html [NC]
+RewriteRule ^systemiceru/games/networker//$ page6689539.html [NC]
+
+RewriteRule ^favicon.ico$ https://static.tildacdn.com/tild6561-3533-4431-b534-303535663563/tildafavicon.ico [R=302,L]
+

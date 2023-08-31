@@ -1,0 +1,26 @@
+{
+  "name": "systemice",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "set NODE_OPTIONS=--openssl-legacy-provider && nuxt",
+    "build": "set NODE_OPTIONS=--openssl-legacy-provider && nuxt build",
+    "start": "set NODE_OPTIONS=--openssl-legacy-provider && nuxt start",
+    "generate": "set NODE_OPTIONS=--openssl-legacy-provider && nuxt generate"
+  },
+  "dependencies": {
+    "@glidejs/glide": "^3.4.1",
+    "@gtarr/nuxtjs-yandex-metrika": "^1.1.0",
+    "axios": "^0.21.1",
+    "clipboard": "^2.0.8",
+    "core-js": "^3.9.1",
+    "inputmask": "^5.0.6",
+    "jquery": "^3.6.0",
+    "lightcase": "^2.5.0",
+    "nuxt": "^2.15.3",
+    "require": "^2.4.20",
+    "vue-youtube-embed": "^2.2.2",
+    "vue2-datepicker": "^3.10.2",
+    "ymaps": "^0.2.1"
+  }
+}

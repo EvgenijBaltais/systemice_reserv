@@ -1,0 +1,10 @@
+User-Agent: *
+Disallow: /tilda/form*
+Disallow: /tilda/rec*
+Disallow: /tilda/click*
+Disallow: /tilda/scroll*
+Disallow: /tilda/popup*
+Disallow:
+Sitemap: http://maot.ru/sitemap.xml
+Sitemap: http://maot.ru/sitemap-store.xml
+Host: maot.ru

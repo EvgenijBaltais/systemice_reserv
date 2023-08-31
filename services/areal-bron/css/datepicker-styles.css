@@ -1,0 +1,136 @@
+/* Новые стили календаря JQUERY UI */
+
+.ui-datepicker {
+  display: none;
+  width: 300px;
+  border-radius: 5px;
+  border:1px solid #c9c9c9;
+  font-family: 'Roboto', sans-serif;
+  background: #fff;
+  box-sizing: border-box;
+  z-index: 9999999!important;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.ui-datepicker-calendar {
+
+  width: 280px;
+  box-sizing: border-box;
+  z-index: 15!important;
+}
+
+.ui-datepicker-prev {
+
+  position: absolute;
+  display: block;
+  width: 40px!important;
+  text-align: center;
+  top: 10px!important;
+  left: 20px;
+}
+
+.ui-datepicker-next {
+
+  position: absolute;
+  display: block;
+  width: 40px!important;
+  text-align: center;
+  top: 10px!important;
+  right: 20px;
+}
+
+#ui-datepicker-div .ui-datepicker-title {
+
+  text-align: center;
+  padding: 5px;
+  font-size: 20px;
+  line-height: 35px;
+  color: #5E5E5E;
+}
+
+.ui-datepicker-calendar th {
+
+  text-align: center;
+  padding: 5px;
+  color: #5E5E5E;
+  font-weight: bold;
+}
+
+.ui-datepicker-calendar td {
+
+  text-align: center;
+  padding: 5px;
+  color: #5E5E5E;
+}
+
+.ui-datepicker-calendar td a,
+.ui-datepicker-unselectable span,
+#ui-datepicker-div .ui-state-disabled span {
+
+  display: block;
+  padding: 7px!important;
+  font-size: 14px;
+  line-height: 17px;
+  border-radius: 100%;
+  text-decoration: none;
+  color: #5E5E5E;
+}
+
+#ui-datepicker-div .ui-datepicker-next span,
+#ui-datepicker-div .ui-datepicker-prev span {
+
+  font-size: 1rem;
+  line-height: 25px;
+}
+#ui-datepicker-div .ui-datepicker-next span {
+  padding: 0 !important;
+}
+.ui-datepicker-calendar td a:hover {
+
+  background: #5AC5FC;
+}
+
+.ui-icon-circle-triangle-w,
+.ui-icon-circle-triangle-e {
+
+  cursor: pointer;
+}
+
+.ui-slider-handle-wrapper {
+
+  position: absolute;
+  left: -8px;
+  top: 0px;
+  display: block;
+  width: 100%;
+}
+
+.ui-state-disabled {
+
+  opacity: .5;
+}
+
+#ui-datepicker-div .ui-state-disabled .ui-icon-circle-triangle-w {
+
+  padding:0!important;
+}
+
+.ui-datepicker-div {
+
+  width: 330px;
+  border: 2px solid blue;
+  background: #ccc;
+}
+
+.ui-widget-content .ui-datepicker-header a {
+
+  color: #000;
+}
+
+/* Новые стили календаря JQUERY UI, конец */
+
+#date-in,
+#date-out {
+
+  cursor: pointer;
+}
